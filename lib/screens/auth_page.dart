@@ -14,8 +14,8 @@ class AuthPage extends StatelessWidget {
         builder: (context, snapshot) {
           //? tverifie ykan l'app vih deja userData tgiss directement home screen
           if (snapshot.hasData) {
-            // return homeScreen();
-            return LoginScreen();
+            return homeScreen();
+            // return LoginScreen();
 
           }
           //? Si non return chor loginPage
